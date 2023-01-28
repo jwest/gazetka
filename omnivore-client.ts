@@ -51,7 +51,7 @@ export default async function (token: string): Promise<Article[]> {
     {
       after: "",
       first: 10,
-      format: "markdown",
+      format: "html",
       includeContent: true,
       query: "",
     },
